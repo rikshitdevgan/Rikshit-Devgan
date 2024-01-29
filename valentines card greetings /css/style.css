@@ -1,0 +1,3241 @@
+@charset "UTF-8";
+
+html, body * {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: papayawhip;
+}
+.absolute-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.btn{
+  padding: .25rem;
+  border: 1px solid ;
+  background-color: #b6528a;
+  font-size: 2rem;
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+object {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+      .cls-1 {
+        letter-spacing: .1em;
+      }
+
+      .cls-2 {
+        letter-spacing: .1em;
+      }
+
+      .cls-3 {
+        font-family: Arvo-Bold, Arvo;
+        font-size: 23.94px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #fcecd2;
+      }
+
+      .cls-4 {
+        font-size: 15.45px;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: Raleway-Bold, Raleway;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        fill: #603e2a;
+      }
+
+      .cls-8 {
+        letter-spacing: .09em;
+      }
+
+      .cls-9 {
+        letter-spacing: .07em;
+      }
+
+      .cls-10 {
+        letter-spacing: .05em;
+      }
+
+      .cls-11 {
+        letter-spacing: .07em;
+      }
+
+      .cls-12 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-7, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65, .cls-66, .cls-67, .cls-68, .cls-69, .cls-70, .cls-71, .cls-72, .cls-73, .cls-74, .cls-75, .cls-76, .cls-77, .cls-78, .cls-79, .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92, .cls-93, .cls-94, .cls-95, .cls-96, .cls-97, .cls-98, .cls-99, .cls-100, .cls-101, .cls-102, .cls-103, .cls-104, .cls-105, .cls-106, .cls-107, .cls-108, .cls-109, .cls-110, .cls-111, .cls-112, .cls-113, .cls-114, .cls-115, .cls-116, .cls-117, .cls-118, .cls-119, .cls-120, .cls-121, .cls-122, .cls-123, .cls-124, .cls-125, .cls-126, .cls-127, .cls-128, .cls-129, .cls-130, .cls-131, .cls-132, .cls-133, .cls-134, .cls-135, .cls-136, .cls-137, .cls-138, .cls-139, .cls-140, .cls-141, .cls-142, .cls-143, .cls-144, .cls-145, .cls-146, .cls-147, .cls-148, .cls-149, .cls-150, .cls-151, .cls-152, .cls-153, .cls-154, .cls-155, .cls-156, .cls-157, .cls-158, .cls-159, .cls-160, .cls-161, .cls-162, .cls-163, .cls-164, .cls-165, .cls-166, .cls-167, .cls-168, .cls-169, .cls-170, .cls-171, .cls-172, .cls-173, .cls-174, .cls-175, .cls-176, .cls-177, .cls-178, .cls-179, .cls-180, .cls-181, .cls-182, .cls-183, .cls-184, .cls-185, .cls-186, .cls-187, .cls-188, .cls-189, .cls-190, .cls-191, .cls-192, .cls-193, .cls-194, .cls-195, .cls-196, .cls-197, .cls-198, .cls-199, .cls-200, .cls-201, .cls-202, .cls-203, .cls-204, .cls-205, .cls-206, .cls-207, .cls-208, .cls-209, .cls-210, .cls-211, .cls-212, .cls-213, .cls-214, .cls-215, .cls-216, .cls-217, .cls-218, .cls-219, .cls-220, .cls-221, .cls-222, .cls-223, .cls-224, .cls-225, .cls-226, .cls-227, .cls-228, .cls-229, .cls-230, .cls-231, .cls-232, .cls-233, .cls-234, .cls-235, .cls-236, .cls-237, .cls-238, .cls-239, .cls-240, .cls-241, .cls-242, .cls-243, .cls-244, .cls-245, .cls-246, .cls-247, .cls-248, .cls-249, .cls-250, .cls-251, .cls-252, .cls-253, .cls-254, .cls-255, .cls-256, .cls-257, .cls-258, .cls-259, .cls-260, .cls-261, .cls-262, .cls-263, .cls-264, .cls-265, .cls-266, .cls-267, .cls-268, .cls-269, .cls-270, .cls-271, .cls-272, .cls-273, .cls-274, .cls-275, .cls-276, .cls-277, .cls-278, .cls-279, .cls-280, .cls-281, .cls-282, .cls-283, .cls-284, .cls-285, .cls-286, .cls-287, .cls-288, .cls-289, .cls-290, .cls-291, .cls-292, .cls-293, .cls-294, .cls-295, .cls-296, .cls-297, .cls-298, .cls-299, .cls-300, .cls-301, .cls-302, .cls-303, .cls-304, .cls-305, .cls-306, .cls-307, .cls-308, .cls-309, .cls-310, .cls-311, .cls-312, .cls-313, .cls-314, .cls-315, .cls-316, .cls-317, .cls-318, .cls-319, .cls-320, .cls-321, .cls-322, .cls-323, .cls-324, .cls-325, .cls-326, .cls-327, .cls-328, .cls-329, .cls-330, .cls-331, .cls-332, .cls-333, .cls-334, .cls-335, .cls-336, .cls-337, .cls-338, .cls-339, .cls-340, .cls-341, .cls-342, .cls-343, .cls-344, .cls-345, .cls-346, .cls-347, .cls-348, .cls-349, .cls-350, .cls-351, .cls-352, .cls-353, .cls-354, .cls-355, .cls-356, .cls-357, .cls-358, .cls-359, .cls-360, .cls-361, .cls-362, .cls-363, .cls-364, .cls-365, .cls-366, .cls-367, .cls-368, .cls-369, .cls-370, .cls-371, .cls-372, .cls-373, .cls-374, .cls-375, .cls-376, .cls-377, .cls-378, .cls-379, .cls-380, .cls-381, .cls-382, .cls-383, .cls-384, .cls-385, .cls-386, .cls-387, .cls-388, .cls-389, .cls-390, .cls-391, .cls-392, .cls-393, .cls-394, .cls-395, .cls-396, .cls-397, .cls-398, .cls-399, .cls-400, .cls-401, .cls-402, .cls-403, .cls-404, .cls-405, .cls-406, .cls-407, .cls-408, .cls-409, .cls-410, .cls-411, .cls-412, .cls-413, .cls-414, .cls-415, .cls-416, .cls-417, .cls-418, .cls-419, .cls-420, .cls-421, .cls-422, .cls-423, .cls-424, .cls-425, .cls-426, .cls-427, .cls-428, .cls-429, .cls-430, .cls-431, .cls-432, .cls-433, .cls-434, .cls-435, .cls-436, .cls-437, .cls-438, .cls-439, .cls-440, .cls-441, .cls-442, .cls-443, .cls-444, .cls-445, .cls-446, .cls-447, .cls-448, .cls-449, .cls-450, .cls-451, .cls-452, .cls-453, .cls-454, .cls-455, .cls-456, .cls-457, .cls-458, .cls-459, .cls-460, .cls-461, .cls-462, .cls-463, .cls-464, .cls-465, .cls-466, .cls-467, .cls-468, .cls-469, .cls-470, .cls-471, .cls-472, .cls-473, .cls-474, .cls-475, .cls-476, .cls-477, .cls-478, .cls-479, .cls-480, .cls-481, .cls-482, .cls-483, .cls-484, .cls-485, .cls-486, .cls-487, .cls-488, .cls-489, .cls-490, .cls-491, .cls-492, .cls-493, .cls-494, .cls-495, .cls-496, .cls-497, .cls-498, .cls-499, .cls-500, .cls-501, .cls-502, .cls-503, .cls-504, .cls-505, .cls-506, .cls-507, .cls-508, .cls-509, .cls-510, .cls-511, .cls-512, .cls-513, .cls-514, .cls-515, .cls-516, .cls-517, .cls-518, .cls-519, .cls-520, .cls-521, .cls-522, .cls-523, .cls-524, .cls-525, .cls-526, .cls-527, .cls-528, .cls-529, .cls-530, .cls-531, .cls-532, .cls-533, .cls-534, .cls-535, .cls-536, .cls-537, .cls-538, .cls-539, .cls-540, .cls-541, .cls-542, .cls-543, .cls-544, .cls-545, .cls-546, .cls-547, .cls-548, .cls-549, .cls-550, .cls-551, .cls-552, .cls-553, .cls-554, .cls-555, .cls-556, .cls-557, .cls-558, .cls-559, .cls-560, .cls-561, .cls-562, .cls-563, .cls-564, .cls-565, .cls-566, .cls-567, .cls-568, .cls-569, .cls-570, .cls-571, .cls-572, .cls-573, .cls-574, .cls-575, .cls-576, .cls-577, .cls-578, .cls-579, .cls-580, .cls-581, .cls-582, .cls-583, .cls-584, .cls-585, .cls-586, .cls-587, .cls-588, .cls-589, .cls-590, .cls-591, .cls-592, .cls-593, .cls-594, .cls-595, .cls-596, .cls-597, .cls-598, .cls-599, .cls-600, .cls-601, .cls-602, .cls-603, .cls-604, .cls-605, .cls-606, .cls-607, .cls-608, .cls-609, .cls-610, .cls-611, .cls-612, .cls-613, .cls-614, .cls-615, .cls-616, .cls-617, .cls-618, .cls-619, .cls-620, .cls-621, .cls-622, .cls-623, .cls-624, .cls-625, .cls-626, .cls-627, .cls-628, .cls-629, .cls-630, .cls-631, .cls-632, .cls-633, .cls-634, .cls-635, .cls-636, .cls-637, .cls-638, .cls-639, .cls-640, .cls-641, .cls-642, .cls-643, .cls-644, .cls-645, .cls-646, .cls-647, .cls-648, .cls-649, .cls-650, .cls-651, .cls-652, .cls-653, .cls-654, .cls-655, .cls-656, .cls-657, .cls-658, .cls-659, .cls-660, .cls-661, .cls-662, .cls-663, .cls-664, .cls-665, .cls-666, .cls-667, .cls-668, .cls-669, .cls-670, .cls-671, .cls-672, .cls-673, .cls-674, .cls-675, .cls-676, .cls-677, .cls-678, .cls-679, .cls-680, .cls-681, .cls-682, .cls-683, .cls-684, .cls-685, .cls-686, .cls-687, .cls-688, .cls-689, .cls-690, .cls-691, .cls-692, .cls-693, .cls-694, .cls-695, .cls-696, .cls-697, .cls-698, .cls-699, .cls-700, .cls-701, .cls-702, .cls-703, .cls-704, .cls-705, .cls-706, .cls-707, .cls-708, .cls-709, .cls-710, .cls-711, .cls-712, .cls-713, .cls-714, .cls-715, .cls-716, .cls-717, .cls-718, .cls-719, .cls-720, .cls-721, .cls-722, .cls-723, .cls-724, .cls-725, .cls-726, .cls-727, .cls-728, .cls-729, .cls-730, .cls-731, .cls-732, .cls-733, .cls-734, .cls-735, .cls-736, .cls-737, .cls-738, .cls-739, .cls-740, .cls-741, .cls-742, .cls-743, .cls-744, .cls-745, .cls-746, .cls-747, .cls-748, .cls-749, .cls-750, .cls-751, .cls-752, .cls-753, .cls-754, .cls-755, .cls-756, .cls-757, .cls-758, .cls-759, .cls-760, .cls-761, .cls-762, .cls-763, .cls-764, .cls-6, .cls-765, .cls-766, .cls-767, .cls-768, .cls-769, .cls-770, .cls-771, .cls-772, .cls-773, .cls-774, .cls-775, .cls-776, .cls-777, .cls-778, .cls-779, .cls-780, .cls-781, .cls-782, .cls-783, .cls-784, .cls-785, .cls-786, .cls-787, .cls-788, .cls-789, .cls-790, .cls-791, .cls-792, .cls-793, .cls-794, .cls-795, .cls-796 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        font-size: 17.49px;
+      }
+
+      .cls-14 {
+        fill: #fafcfb;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-797 {
+        letter-spacing: .05em;
+      }
+
+      .cls-15 {
+        fill: #f3e3ee;
+      }
+
+      .cls-16 {
+        fill: #f3ebf1;
+      }
+
+      .cls-17 {
+        fill: #f3ebf0;
+      }
+
+      .cls-18 {
+        fill: #f3eaf0;
+      }
+
+      .cls-19 {
+        fill: #f3e6ef;
+      }
+
+      .cls-20 {
+        fill: #f3e2ed;
+      }
+
+      .cls-21 {
+        fill: #f7f1f6;
+      }
+
+      .cls-22 {
+        fill: #f7eef3;
+      }
+
+      .cls-23 {
+        fill: #f2ebf1;
+      }
+
+      .cls-24 {
+        fill: #f2dfeb;
+      }
+
+      .cls-25 {
+        fill: #f2e0ec;
+      }
+
+      .cls-26 {
+        fill: #f6f5f5;
+      }
+
+      .cls-27 {
+        fill: #f6eaf3;
+      }
+
+      .cls-28 {
+        fill: #f6f2f7;
+      }
+
+      .cls-29 {
+        fill: #f6e9f1;
+      }
+
+      .cls-30 {
+        fill: #f6f0f4;
+      }
+
+      .cls-31 {
+        fill: #f8eff5;
+      }
+
+      .cls-32 {
+        fill: #4c4847;
+      }
+
+      .cls-33 {
+        fill: #4c4948;
+      }
+
+      .cls-34 {
+        fill: #4c4949;
+      }
+
+      .cls-35 {
+        fill: #625e5d;
+      }
+
+      .cls-36 {
+        fill: #4c4645;
+      }
+
+      .cls-37 {
+        fill: #494645;
+      }
+
+      .cls-38 {
+        fill: #5f5a5a;
+      }
+
+      .cls-39 {
+        fill: #5f5b5b;
+      }
+
+      .cls-40 {
+        fill: #5f5c5b;
+      }
+
+      .cls-41 {
+        fill: #534f4f;
+      }
+
+      .cls-42 {
+        fill: #605c5b;
+      }
+
+      .cls-43 {
+        fill: #605d5c;
+      }
+
+      .cls-44 {
+        fill: #7b194c;
+      }
+
+      .cls-45 {
+        fill: #781548;
+      }
+
+      .cls-46 {
+        fill: #615d5d;
+      }
+
+      .cls-47 {
+        fill: #4b4847;
+      }
+
+      .cls-48 {
+        fill: #5e5a59;
+      }
+
+      .cls-49 {
+        fill: #5e5959;
+      }
+
+      .cls-50 {
+        fill: #5d5958;
+      }
+
+      .cls-51 {
+        fill: #5d5959;
+      }
+
+      .cls-52 {
+        fill: #797676;
+      }
+
+      .cls-53 {
+        fill: #4f4d4d;
+      }
+
+      .cls-54 {
+        fill: #524f4e;
+      }
+
+      .cls-55 {
+        fill: #787574;
+      }
+
+      .cls-56 {
+        fill: #524d4c;
+      }
+
+      .cls-57 {
+        fill: #504d4d;
+      }
+
+      .cls-58 {
+        fill: #504d4c;
+      }
+
+      .cls-59 {
+        fill: #504c4c;
+      }
+
+      .cls-60 {
+        fill: #4f4b4b;
+      }
+
+      .cls-61 {
+        fill: #4f4b4a;
+      }
+
+      .cls-62 {
+        fill: #505051;
+      }
+
+      .cls-63 {
+        fill: #313030;
+      }
+
+      .cls-64 {
+        fill: #312f2e;
+      }
+
+      .cls-65 {
+        fill: #312f2f;
+      }
+
+      .cls-66 {
+        fill: #282525;
+      }
+
+      .cls-67 {
+        fill: #282626;
+      }
+
+      .cls-68 {
+        fill: #282726;
+      }
+
+      .cls-69 {
+        fill: #4e4a4a;
+      }
+
+      .cls-70 {
+        fill: #4e4b4b;
+      }
+
+      .cls-71 {
+        fill: #4e4c4c;
+      }
+
+      .cls-72 {
+        fill: #4d4a4a;
+      }
+
+      .cls-73 {
+        fill: #4d4948;
+      }
+
+      .cls-74 {
+        fill: #4d4949;
+      }
+
+      .cls-75 {
+        fill: #4d4848;
+      }
+
+      .cls-76 {
+        fill: #353232;
+      }
+
+      .cls-77 {
+        fill: #353231;
+      }
+
+      .cls-78 {
+        fill: #2d2a2a;
+      }
+
+      .cls-79 {
+        fill: #2d2b2b;
+      }
+
+      .cls-80 {
+        fill: #474241;
+      }
+
+      .cls-81 {
+        fill: #474342;
+      }
+
+      .cls-82 {
+        fill: #474343;
+      }
+
+      .cls-83 {
+        fill: #474444;
+      }
+
+      .cls-84 {
+        fill: #474443;
+      }
+
+      .cls-85 {
+        fill: #484545;
+      }
+
+      .cls-86 {
+        fill: #484544;
+      }
+
+      .cls-87 {
+        fill: #484645;
+      }
+
+      .cls-88 {
+        fill: #484747;
+      }
+
+      .cls-89 {
+        fill: #2a2828;
+      }
+
+      .cls-90 {
+        fill: #2a2929;
+      }
+
+      .cls-91 {
+        fill: #4a4747;
+      }
+
+      .cls-92 {
+        fill: #4a4746;
+      }
+
+      .cls-93 {
+        fill: #4a4646;
+      }
+
+      .cls-94 {
+        fill: #565353;
+      }
+
+      .cls-95 {
+        fill: #565151;
+      }
+
+      .cls-96 {
+        fill: #2c2929;
+      }
+
+      .cls-97 {
+        fill: #2c2b2b;
+      }
+
+      .cls-98 {
+        fill: #2c2a2a;
+      }
+
+      .cls-99 {
+        fill: #2b2a2a;
+      }
+
+      .cls-100 {
+        fill: #2b2928;
+      }
+
+      .cls-101 {
+        fill: #2b2929;
+      }
+
+      .cls-102 {
+        fill: #2b2828;
+      }
+
+      .cls-103 {
+        fill: #595554;
+      }
+
+      .cls-104 {
+        fill: #595555;
+      }
+
+      .cls-105 {
+        fill: #2b2b2b;
+      }
+
+      .cls-106 {
+        fill: #595655;
+      }
+
+      .cls-107 {
+        fill: #292727;
+      }
+
+      .cls-108 {
+        fill: #292828;
+      }
+
+      .cls-109 {
+        fill: #5b5858;
+      }
+
+      .cls-110 {
+        fill: #5b5959;
+      }
+
+      .cls-111 {
+        fill: #5b5d5f;
+      }
+
+      .cls-112 {
+        fill: #5c5858;
+      }
+
+      .cls-113 {
+        fill: #635f5e;
+      }
+
+      .cls-114 {
+        fill: #636060;
+      }
+
+      .cls-115 {
+        fill: #555151;
+      }
+
+      .cls-116 {
+        fill: #555150;
+      }
+
+      .cls-117 {
+        fill: #706c6c;
+      }
+
+      .cls-118 {
+        fill: #868281;
+      }
+
+      .cls-119 {
+        fill: #878484;
+      }
+
+      .cls-120 {
+        fill: #9b4974;
+      }
+
+      .cls-121 {
+        fill: #9b4874;
+      }
+
+      .cls-122 {
+        fill: #6d6969;
+      }
+
+      .cls-123 {
+        fill: #464443;
+      }
+
+      .cls-124 {
+        fill: #464343;
+      }
+
+      .cls-125 {
+        fill: #464242;
+      }
+
+      .cls-126 {
+        fill: #464444;
+      }
+
+      .cls-127 {
+        fill: #545150;
+      }
+
+      .cls-128 {
+        fill: #9b4773;
+      }
+
+      .cls-129 {
+        fill: #534e4d;
+      }
+
+      .cls-130 {
+        fill: #535150;
+      }
+
+      .cls-131 {
+        fill: #53504f;
+      }
+
+      .cls-132 {
+        fill: #973e6f;
+      }
+
+      .cls-133 {
+        fill: #973d6e;
+      }
+
+      .cls-134 {
+        fill: #972d6e;
+      }
+
+      .cls-135 {
+        fill: #8b2b62;
+      }
+
+      .cls-136 {
+        fill: #a3577c;
+      }
+
+      .cls-137 {
+        fill: #a33c79;
+      }
+
+      .cls-138 {
+        fill: #a35b7f;
+      }
+
+      .cls-139 {
+        fill: #a35b80;
+      }
+
+      .cls-140 {
+        fill: #9c4b75;
+      }
+
+      .cls-141 {
+        fill: #9c4b76;
+      }
+
+      .cls-142 {
+        fill: #807c7c;
+      }
+
+      .cls-143 {
+        fill: #807d7d;
+      }
+
+      .cls-144 {
+        fill: #6e6b6a;
+      }
+
+      .cls-145 {
+        fill: #9b9a9a;
+      }
+
+      .cls-146 {
+        fill: #95366d;
+      }
+
+      .cls-147 {
+        fill: #95376e;
+      }
+
+      .cls-148 {
+        fill: #96276c;
+      }
+
+      .cls-149 {
+        fill: #962d6b;
+      }
+
+      .cls-150 {
+        fill: #a4437d;
+      }
+
+      .cls-151 {
+        fill: #2f2d2d;
+      }
+
+      .cls-152 {
+        fill: #2f2d2c;
+      }
+
+      .cls-153 {
+        fill: #262525;
+      }
+
+      .cls-154 {
+        fill: #262424;
+      }
+
+      .cls-155 {
+        fill: #383635;
+      }
+
+      .cls-156 {
+        fill: #383434;
+      }
+
+      .cls-157 {
+        fill: #383636;
+      }
+
+      .cls-158 {
+        fill: #383534;
+      }
+
+      .cls-159 {
+        fill: #383535;
+      }
+
+      .cls-160 {
+        fill: #3b3b3b;
+      }
+
+      .cls-161 {
+        fill: #3b3837;
+      }
+
+      .cls-162 {
+        fill: #3b3838;
+      }
+
+      .cls-163 {
+        fill: #3b3736;
+      }
+
+      .cls-164 {
+        fill: #3b3938;
+      }
+
+      .cls-165 {
+        fill: #3b3636;
+      }
+
+      .cls-166 {
+        fill: #3a3837;
+      }
+
+      .cls-167 {
+        fill: #3a3737;
+      }
+
+      .cls-168 {
+        fill: #353333;
+      }
+
+      .cls-169 {
+        fill: #3a3939;
+      }
+
+      .cls-170 {
+        fill: #343232;
+      }
+
+      .cls-171 {
+        fill: #343231;
+      }
+
+      .cls-172 {
+        fill: #343333;
+      }
+
+      .cls-173 {
+        fill: #3d3b3a;
+      }
+
+      .cls-174 {
+        fill: #3d3a3a;
+      }
+
+      .cls-175 {
+        fill: #3d3a39;
+      }
+
+      .cls-176 {
+        fill: #3d3736;
+      }
+
+      .cls-177 {
+        fill: #3d3938;
+      }
+
+      .cls-178 {
+        fill: #2e2b2b;
+      }
+
+      .cls-179 {
+        fill: #2e2c2d;
+      }
+
+      .cls-180 {
+        fill: #2e2c2c;
+      }
+
+      .cls-181 {
+        fill: #2e2d2c;
+      }
+
+      .cls-182 {
+        fill: #343131;
+      }
+
+      .cls-183 {
+        fill: #343130;
+      }
+
+      .cls-184 {
+        fill: #272424;
+      }
+
+      .cls-185 {
+        fill: #272525;
+      }
+
+      .cls-186 {
+        fill: #393636;
+      }
+
+      .cls-187 {
+        fill: #393535;
+      }
+
+      .cls-188 {
+        fill: #393737;
+      }
+
+      .cls-189 {
+        fill: #5a5655;
+      }
+
+      .cls-190 {
+        fill: #575353;
+      }
+
+      .cls-191 {
+        fill: #575453;
+      }
+
+      .cls-192 {
+        fill: #3c3a39;
+      }
+
+      .cls-193 {
+        fill: #585453;
+      }
+
+      .cls-194 {
+        fill: #585454;
+      }
+
+      .cls-195 {
+        fill: #585554;
+      }
+
+      .cls-196 {
+        fill: #2f2b2b;
+      }
+
+      .cls-197 {
+        fill: #2f2e2e;
+      }
+
+      .cls-198 {
+        fill: #851f59;
+      }
+
+      .cls-199 {
+        fill: #3c3a3a;
+      }
+
+      .cls-200 {
+        fill: #3c3939;
+      }
+
+      .cls-201 {
+        fill: #3c3838;
+      }
+
+      .cls-202 {
+        fill: #2f2c2c;
+      }
+
+      .cls-203 {
+        fill: #1b1a1a;
+      }
+
+      .cls-204 {
+        fill: #1b1a1b;
+      }
+
+      .cls-205 {
+        fill: #3e3c3c;
+      }
+
+      .cls-206 {
+        fill: #3e3b3b;
+      }
+
+      .cls-207 {
+        fill: #3f3b3b;
+      }
+
+      .cls-208 {
+        fill: #181818;
+      }
+
+      .cls-209 {
+        fill: #191819;
+      }
+
+      .cls-210 {
+        fill: #191818;
+      }
+
+      .cls-211 {
+        fill: #191919;
+      }
+
+      .cls-212 {
+        fill: #3f3d3d;
+      }
+
+      .cls-213 {
+        fill: #3f3c3b;
+      }
+
+      .cls-214 {
+        fill: #373434;
+      }
+
+      .cls-215 {
+        fill: #373534;
+      }
+
+      .cls-216 {
+        fill: #373535;
+      }
+
+      .cls-217 {
+        fill: #363332;
+      }
+
+      .cls-218 {
+        fill: #363333;
+      }
+
+      .cls-219 {
+        fill: #363434;
+      }
+
+      .cls-220 {
+        fill: #363433;
+      }
+
+      .cls-221 {
+        fill: #454241;
+      }
+
+      .cls-222 {
+        fill: #444141;
+      }
+
+      .cls-223 {
+        fill: #444241;
+      }
+
+      .cls-224 {
+        fill: #444242;
+      }
+
+      .cls-225 {
+        fill: #1c1b1b;
+      }
+
+      .cls-226 {
+        fill: #1d1c1c;
+      }
+
+      .cls-227 {
+        fill: #413f3f;
+      }
+
+      .cls-228 {
+        fill: #413f3e;
+      }
+
+      .cls-229 {
+        fill: #413d3d;
+      }
+
+      .cls-230 {
+        fill: #403e3d;
+      }
+
+      .cls-231 {
+        fill: #403d3c;
+      }
+
+      .cls-232 {
+        fill: #403c3b;
+      }
+
+      .cls-233 {
+        fill: #403d3d;
+      }
+
+      .cls-234 {
+        fill: #403f3f;
+      }
+
+      .cls-235 {
+        fill: #404040;
+      }
+
+      .cls-236 {
+        fill: #43403f;
+      }
+
+      .cls-237 {
+        fill: #434040;
+      }
+
+      .cls-238 {
+        fill: #413e3d;
+      }
+
+      .cls-239 {
+        fill: #413e3e;
+      }
+
+      .cls-240 {
+        fill: #433f3e;
+      }
+
+      .cls-241 {
+        fill: #434140;
+      }
+
+      .cls-242 {
+        fill: #434141;
+      }
+
+      .cls-243 {
+        fill: #424445;
+      }
+
+      .cls-244 {
+        fill: #434241;
+      }
+
+      .cls-245 {
+        fill: #42403f;
+      }
+
+      .cls-246 {
+        fill: #423f3e;
+      }
+
+      .cls-247 {
+        fill: #423f3f;
+      }
+
+      .cls-248 {
+        fill: #424040;
+      }
+
+      .cls-249 {
+        fill: #424141;
+      }
+
+      .cls-250 {
+        fill: #423e3e;
+      }
+
+      .cls-251 {
+        fill: #232120;
+      }
+
+      .cls-252 {
+        fill: #232121;
+      }
+
+      .cls-253 {
+        fill: #232221;
+      }
+
+      .cls-254 {
+        fill: #232222;
+      }
+
+      .cls-255 {
+        fill: #212020;
+      }
+
+      .cls-256 {
+        fill: #211f1f;
+      }
+
+      .cls-257 {
+        fill: #201f20;
+      }
+
+      .cls-258 {
+        fill: #201f1f;
+      }
+
+      .cls-259 {
+        fill: #222121;
+      }
+
+      .cls-260 {
+        fill: #a96887;
+      }
+
+      .cls-261 {
+        fill: #a96a88;
+      }
+
+      .cls-262 {
+        fill: #1f1e1e;
+      }
+
+      .cls-263 {
+        fill: #171717;
+      }
+
+      .cls-264 {
+        fill: #171616;
+      }
+
+      .cls-265 {
+        fill: #161616;
+      }
+
+      .cls-266 {
+        fill: #252424;
+      }
+
+      .cls-267 {
+        fill: #252323;
+      }
+
+      .cls-268 {
+        fill: #242323;
+      }
+
+      .cls-269 {
+        fill: #242222;
+      }
+
+      .cls-270 {
+        fill: #242121;
+      }
+
+      .cls-271 {
+        fill: #c75396;
+      }
+
+      .cls-272 {
+        fill: #c64e94;
+      }
+
+      .cls-273 {
+        fill: #c773a3;
+      }
+
+      .cls-274 {
+        fill: #c774a4;
+      }
+
+      .cls-275 {
+        fill: #c85296;
+      }
+
+      .cls-276 {
+        fill: #c7679e;
+      }
+
+      .cls-277 {
+        fill: #c571a1;
+      }
+
+      .cls-278 {
+        fill: #c56fa1;
+      }
+
+      .cls-279 {
+        fill: #c85798;
+      }
+
+      .cls-280 {
+        fill: #c774a3;
+      }
+
+      .cls-281 {
+        fill: #d077a9;
+      }
+
+      .cls-282 {
+        fill: #c54290;
+      }
+
+      .cls-283 {
+        fill: #e2c3d6;
+      }
+
+      .cls-284 {
+        fill: #dfbad0;
+      }
+
+      .cls-285 {
+        fill: #dfb2cc;
+      }
+
+      .cls-286 {
+        fill: #dfb3cd;
+      }
+
+      .cls-287 {
+        fill: #dfa9c8;
+      }
+
+      .cls-288 {
+        fill: #d088b1;
+      }
+
+      .cls-289 {
+        fill: #d27eac;
+      }
+
+      .cls-290 {
+        fill: #d27dac;
+      }
+
+      .cls-291 {
+        fill: #d28eb5;
+      }
+
+      .cls-292 {
+        fill: #d1cfd0;
+      }
+
+      .cls-293 {
+        fill: #d290b7;
+      }
+
+      .cls-294 {
+        fill: #d27ead;
+      }
+
+      .cls-295 {
+        fill: #d280af;
+      }
+
+      .cls-296 {
+        fill: #d282b2;
+      }
+
+      .cls-297 {
+        fill: #d1d2d3;
+      }
+
+      .cls-298 {
+        fill: #d296b9;
+      }
+
+      .cls-299 {
+        fill: #d287b3;
+      }
+
+      .cls-300 {
+        fill: #d389b5;
+      }
+
+      .cls-301 {
+        fill: #d384b1;
+      }
+
+      .cls-302 {
+        fill: #d380ae;
+      }
+
+      .cls-303 {
+        fill: #d380af;
+      }
+
+      .cls-304 {
+        fill: #d382af;
+      }
+
+      .cls-305 {
+        fill: #d383b0;
+      }
+
+      .cls-306 {
+        fill: #cc6aa2;
+      }
+
+      .cls-307 {
+        fill: #cc66a0;
+      }
+
+      .cls-308 {
+        fill: #d399bb;
+      }
+
+      .cls-309 {
+        fill: #cc7eab;
+      }
+
+      .cls-310 {
+        fill: #cc7eac;
+      }
+
+      .cls-311 {
+        fill: #cc7fab;
+      }
+
+      .cls-312 {
+        fill: #cc669f;
+      }
+
+      .cls-313 {
+        fill: #ddaac8;
+      }
+
+      .cls-314 {
+        fill: #dda3c4;
+      }
+
+      .cls-315 {
+        fill: #ddacc9;
+      }
+
+      .cls-316 {
+        fill: #ddadca;
+      }
+
+      .cls-317 {
+        fill: #ddaeca;
+      }
+
+      .cls-318 {
+        fill: #dda4c6;
+      }
+
+      .cls-319 {
+        fill: #dda4c8;
+      }
+
+      .cls-320 {
+        fill: #dda4c4;
+      }
+
+      .cls-321 {
+        fill: #dea3c7;
+      }
+
+      .cls-322 {
+        fill: #deabc8;
+      }
+
+      .cls-323 {
+        fill: #deafcb;
+      }
+
+      .cls-324 {
+        fill: #deb1cc;
+      }
+
+      .cls-325 {
+        fill: #deb0cb;
+      }
+
+      .cls-326 {
+        fill: #deadca;
+      }
+
+      .cls-327 {
+        fill: #deaacc;
+      }
+
+      .cls-328 {
+        fill: #dea4c5;
+      }
+
+      .cls-329 {
+        fill: #dea9cb;
+      }
+
+      .cls-330 {
+        fill: #dea8ca;
+      }
+
+      .cls-331 {
+        fill: #dea6c9;
+      }
+
+      .cls-332 {
+        fill: #dea6c6;
+      }
+
+      .cls-333 {
+        fill: #dea7c9;
+      }
+
+      .cls-334 {
+        fill: #dea5c8;
+      }
+
+      .cls-335 {
+        fill: #dea5c5;
+      }
+
+      .cls-336 {
+        fill: #d084b2;
+      }
+
+      .cls-337 {
+        fill: #d094b8;
+      }
+
+      .cls-338 {
+        fill: #d078a9;
+      }
+
+      .cls-339 {
+        fill: #d075a8;
+      }
+
+      .cls-340 {
+        fill: #d17bab;
+      }
+
+      .cls-341 {
+        fill: #d176a8;
+      }
+
+      .cls-342 {
+        fill: #d09cba;
+      }
+
+      .cls-343 {
+        fill: #d187b3;
+      }
+
+      .cls-344 {
+        fill: #d19bb9;
+      }
+
+      .cls-345 {
+        fill: #d196b9;
+      }
+
+      .cls-346 {
+        fill: #d178a9;
+      }
+
+      .cls-347 {
+        fill: #d17cac;
+      }
+
+      .cls-348 {
+        fill: #ca6ea3;
+      }
+
+      .cls-349 {
+        fill: #ca72a5;
+      }
+
+      .cls-350 {
+        fill: #c671a2;
+      }
+
+      .cls-351 {
+        fill: #d17cab;
+      }
+
+      .cls-352 {
+        fill: #d17aaa;
+      }
+
+      .cls-353 {
+        fill: #d179aa;
+      }
+
+      .cls-354 {
+        fill: #ca7daa;
+      }
+
+      .cls-355 {
+        fill: #ca89af;
+      }
+
+      .cls-356 {
+        fill: #cb7caa;
+      }
+
+      .cls-357 {
+        fill: #cb70a5;
+      }
+
+      .cls-358 {
+        fill: #c66fa0;
+      }
+
+      .cls-359 {
+        fill: #cb629d;
+      }
+
+      .cls-360 {
+        fill: #cb5e9b;
+      }
+
+      .cls-361 {
+        fill: #ca7eaa;
+      }
+
+      .cls-362 {
+        fill: #ca7ca9;
+      }
+
+      .cls-363 {
+        fill: #cb649e;
+      }
+
+      .cls-364 {
+        fill: #cb7daa;
+      }
+
+      .cls-365 {
+        fill: #cb659f;
+      }
+
+      .cls-366 {
+        fill: #cd6ca2;
+      }
+
+      .cls-367 {
+        fill: #cd6ca3;
+      }
+
+      .cls-368 {
+        fill: #cd6ba2;
+      }
+
+      .cls-369 {
+        fill: #cd69a1;
+      }
+
+      .cls-370 {
+        fill: #cd6ea4;
+      }
+
+      .cls-371 {
+        fill: #cd679f;
+      }
+
+      .cls-372 {
+        fill: #cd84ae;
+      }
+
+      .cls-373 {
+        fill: #cd82ae;
+      }
+
+      .cls-374 {
+        fill: #cd81ad;
+      }
+
+      .cls-375 {
+        fill: #daa2c3;
+      }
+
+      .cls-376 {
+        fill: #da9bc2;
+      }
+
+      .cls-377 {
+        fill: #e0b4d1;
+      }
+
+      .cls-378 {
+        fill: #e0b4cd;
+      }
+
+      .cls-379 {
+        fill: #e0b4ce;
+      }
+
+      .cls-380 {
+        fill: #d9a9c6;
+      }
+
+      .cls-381 {
+        fill: #d9a4c3;
+      }
+
+      .cls-382 {
+        fill: #e0aacb;
+      }
+
+      .cls-383 {
+        fill: #e0b3ce;
+      }
+
+      .cls-384 {
+        fill: #e0bcd2;
+      }
+
+      .cls-385 {
+        fill: #e0adcd;
+      }
+
+      .cls-386 {
+        fill: #ae3878;
+      }
+
+      .cls-387 {
+        fill: #e0acca;
+      }
+
+      .cls-388 {
+        fill: #e0acc9;
+      }
+
+      .cls-389 {
+        fill: #d7a3c2;
+      }
+
+      .cls-390 {
+        fill: #d894be;
+      }
+
+      .cls-391 {
+        fill: #d894bd;
+      }
+
+      .cls-392 {
+        fill: #c877a6;
+      }
+
+      .cls-393 {
+        fill: #c873a3;
+      }
+
+      .cls-394 {
+        fill: #cc659f;
+      }
+
+      .cls-395 {
+        fill: #c876a5;
+      }
+
+      .cls-396 {
+        fill: #d893ba;
+      }
+
+      .cls-397 {
+        fill: #d893b9;
+      }
+
+      .cls-398 {
+        fill: #d893bd;
+      }
+
+      .cls-399 {
+        fill: #c875a5;
+      }
+
+      .cls-400 {
+        fill: #d49bbd;
+      }
+
+      .cls-401 {
+        fill: #d49abc;
+      }
+
+      .cls-402 {
+        fill: #c674a4;
+      }
+
+      .cls-403 {
+        fill: #dba9c7;
+      }
+
+      .cls-404 {
+        fill: #dba7c6;
+      }
+
+      .cls-405 {
+        fill: #dba9c6;
+      }
+
+      .cls-406 {
+        fill: #dbaac7;
+      }
+
+      .cls-407 {
+        fill: #e2b9d2;
+      }
+
+      .cls-408 {
+        fill: #e2b9d1;
+      }
+
+      .cls-409 {
+        fill: #e2b7d1;
+      }
+
+      .cls-410 {
+        fill: #e2b6d0;
+      }
+
+      .cls-411 {
+        fill: #e2b1cd;
+      }
+
+      .cls-412 {
+        fill: #e2bed3;
+      }
+
+      .cls-413 {
+        fill: #e2b2cd;
+      }
+
+      .cls-414 {
+        fill: #e1aecb;
+      }
+
+      .cls-415 {
+        fill: #e1aece;
+      }
+
+      .cls-416 {
+        fill: #e2b5d2;
+      }
+
+      .cls-417 {
+        fill: #e2b8d1;
+      }
+
+      .cls-418 {
+        fill: #e2b8d0;
+      }
+
+      .cls-419 {
+        fill: #e2b3ce;
+      }
+
+      .cls-420 {
+        fill: #e2b2d0;
+      }
+
+      .cls-421 {
+        fill: #e2b4ce;
+      }
+
+      .cls-422 {
+        fill: #e2b4d1;
+      }
+
+      .cls-423 {
+        fill: #e1b6cf;
+      }
+
+      .cls-424 {
+        fill: #e1b8d1;
+      }
+
+      .cls-425 {
+        fill: #e1b2cd;
+      }
+
+      .cls-426 {
+        fill: #e1b0cd;
+      }
+
+      .cls-427 {
+        fill: #e1b0cb;
+      }
+
+      .cls-428 {
+        fill: #e2bfd4;
+      }
+
+      .cls-429 {
+        fill: #e1afcc;
+      }
+
+      .cls-430 {
+        fill: #e1afce;
+      }
+
+      .cls-431 {
+        fill: #c95b9a;
+      }
+
+      .cls-432 {
+        fill: #c95d9b;
+      }
+
+      .cls-433 {
+        fill: #c87da8;
+      }
+
+      .cls-434 {
+        fill: #c97aa8;
+      }
+
+      .cls-435 {
+        fill: #c979a7;
+      }
+
+      .cls-436 {
+        fill: #d694b9;
+      }
+
+      .cls-437 {
+        fill: #c95a9a;
+      }
+
+      .cls-438 {
+        fill: #dfaacb;
+      }
+
+      .cls-439 {
+        fill: #dfaece;
+      }
+
+      .cls-440 {
+        fill: #dfb0cc;
+      }
+
+      .cls-441 {
+        fill: #dfaccd;
+      }
+
+      .cls-442 {
+        fill: #d69fc0;
+      }
+
+      .cls-443 {
+        fill: #d79fc0;
+      }
+
+      .cls-444 {
+        fill: #d7a2c1;
+      }
+
+      .cls-445 {
+        fill: #d7a2c2;
+      }
+
+      .cls-446 {
+        fill: #dfa6c6;
+      }
+
+      .cls-447 {
+        fill: #d6d2d1;
+      }
+
+      .cls-448 {
+        fill: #dfabc9;
+      }
+
+      .cls-449 {
+        fill: #dfa8c7;
+      }
+
+      .cls-450 {
+        fill: #dfabcb;
+      }
+
+      .cls-451 {
+        fill: #d69dbe;
+      }
+
+      .cls-452 {
+        fill: #d5a8c3;
+      }
+
+      .cls-453 {
+        fill: #d684b1;
+      }
+
+      .cls-454 {
+        fill: #d68db6;
+      }
+
+      .cls-455 {
+        fill: #d68fbb;
+      }
+
+      .cls-456 {
+        fill: #d689b4;
+      }
+
+      .cls-457 {
+        fill: #d68dba;
+      }
+
+      .cls-458 {
+        fill: #d68db9;
+      }
+
+      .cls-459 {
+        fill: #d78db6;
+      }
+
+      .cls-460 {
+        fill: #d58db9;
+      }
+
+      .cls-461 {
+        fill: #d58db8;
+      }
+
+      .cls-462 {
+        fill: #d78eb9;
+      }
+
+      .cls-463 {
+        fill: #d791bc;
+      }
+
+      .cls-464 {
+        fill: #d78eb6;
+      }
+
+      .cls-465 {
+        fill: #d78bb5;
+      }
+
+      .cls-466 {
+        fill: #d790bb;
+      }
+
+      .cls-467 {
+        fill: #d586b2;
+      }
+
+      .cls-468 {
+        fill: #d792bc;
+      }
+
+      .cls-469 {
+        fill: #d78fbb;
+      }
+
+      .cls-470 {
+        fill: #d78fb7;
+      }
+
+      .cls-471 {
+        fill: #d588b4;
+      }
+
+      .cls-472 {
+        fill: #d58ab8;
+      }
+
+      .cls-473 {
+        fill: #d588b3;
+      }
+
+      .cls-474 {
+        fill: #d58bb7;
+      }
+
+      .cls-475 {
+        fill: #d58bb8;
+      }
+
+      .cls-476 {
+        fill: #d589b4;
+      }
+
+      .cls-477 {
+        fill: #d68bb5;
+      }
+
+      .cls-478 {
+        fill: #d68cb6;
+      }
+
+      .cls-479 {
+        fill: #dca2c7;
+      }
+
+      .cls-480 {
+        fill: #dda0c4;
+      }
+
+      .cls-481 {
+        fill: #dda1c3;
+      }
+
+      .cls-482 {
+        fill: #dda1c2;
+      }
+
+      .cls-483 {
+        fill: #dcacc9;
+      }
+
+      .cls-484 {
+        fill: #dcb4cb;
+      }
+
+      .cls-485 {
+        fill: #dcb4cc;
+      }
+
+      .cls-486 {
+        fill: #dcb5cc;
+      }
+
+      .cls-487 {
+        fill: #dba2c6;
+      }
+
+      .cls-488 {
+        fill: #dc9ec1;
+      }
+
+      .cls-489 {
+        fill: #dca0c1;
+      }
+
+      .cls-490 {
+        fill: #dca0c2;
+      }
+
+      .cls-491 {
+        fill: #dca0c4;
+      }
+
+      .cls-492 {
+        fill: #dca1c2;
+      }
+
+      .cls-493 {
+        fill: #dca1c6;
+      }
+
+      .cls-494 {
+        fill: #dcaac7;
+      }
+
+      .cls-495 {
+        fill: #dca6c5;
+      }
+
+      .cls-496 {
+        fill: #dca0c5;
+      }
+
+      .cls-497 {
+        fill: #d486b2;
+      }
+
+      .cls-498 {
+        fill: #dc9dc0;
+      }
+
+      .cls-499 {
+        fill: #d9a3c2;
+      }
+
+      .cls-500 {
+        fill: #d9a6c4;
+      }
+
+      .cls-501 {
+        fill: #d484b1;
+      }
+
+      .cls-502 {
+        fill: #d485b2;
+      }
+
+      .cls-503 {
+        fill: #d485b1;
+      }
+
+      .cls-504 {
+        fill: #d48ab6;
+      }
+
+      .cls-505 {
+        fill: #d488b6;
+      }
+
+      .cls-506 {
+        fill: #d488b4;
+      }
+
+      .cls-507 {
+        fill: #d481af;
+      }
+
+      .cls-508 {
+        fill: #d48cb7;
+      }
+
+      .cls-509 {
+        fill: #db9bbf;
+      }
+
+      .cls-510 {
+        fill: #db9ec3;
+      }
+
+      .cls-511 {
+        fill: #dba0c5;
+      }
+
+      .cls-512 {
+        fill: #d483b0;
+      }
+
+      .cls-513 {
+        fill: #db9abe;
+      }
+
+      .cls-514 {
+        fill: #daa6c5;
+      }
+
+      .cls-515 {
+        fill: #db9cc2;
+      }
+
+      .cls-516 {
+        fill: #db9cbf;
+      }
+
+      .cls-517 {
+        fill: #db9cc0;
+      }
+
+      .cls-518 {
+        fill: #da9cc2;
+      }
+
+      .cls-519 {
+        fill: #daaac7;
+      }
+
+      .cls-520 {
+        fill: #d597bb;
+      }
+
+      .cls-521 {
+        fill: #d59bbd;
+      }
+
+      .cls-522 {
+        fill: #d597bc;
+      }
+
+      .cls-523 {
+        fill: #da9abe;
+      }
+
+      .cls-524 {
+        fill: #da99bd;
+      }
+
+      .cls-525 {
+        fill: #daa8c5;
+      }
+
+      .cls-526 {
+        fill: #daa7c5;
+      }
+
+      .cls-527 {
+        fill: #da97bc;
+      }
+
+      .cls-528 {
+        fill: #da98c0;
+      }
+
+      .cls-529 {
+        fill: #da99be;
+      }
+
+      .cls-530 {
+        fill: #da9ac1;
+      }
+
+      .cls-531 {
+        fill: #c26498;
+      }
+
+      .cls-532 {
+        fill: #c06095;
+      }
+
+      .cls-533 {
+        fill: #bd6496;
+      }
+
+      .cls-534 {
+        fill: #bd4a8b;
+      }
+
+      .cls-535 {
+        fill: #be6195;
+      }
+
+      .cls-536 {
+        fill: #be6194;
+      }
+
+      .cls-537 {
+        fill: #bec1c4;
+      }
+
+      .cls-538 {
+        fill: #c05290;
+      }
+
+      .cls-539 {
+        fill: #bf6899;
+      }
+
+      .cls-540 {
+        fill: #bf5a90;
+      }
+
+      .cls-541 {
+        fill: #c16c9c;
+      }
+
+      .cls-542 {
+        fill: #c1699b;
+      }
+
+      .cls-543 {
+        fill: #c45c98;
+      }
+
+      .cls-544 {
+        fill: #bf6598;
+      }
+
+      .cls-545 {
+        fill: #b4417f;
+      }
+
+      .cls-546 {
+        fill: #b44581;
+      }
+
+      .cls-547 {
+        fill: #d8a3c3;
+      }
+
+      .cls-548 {
+        fill: #d996bf;
+      }
+
+      .cls-549 {
+        fill: #d8a3c2;
+      }
+
+      .cls-550 {
+        fill: #d993ba;
+      }
+
+      .cls-551 {
+        fill: #d996be;
+      }
+
+      .cls-552 {
+        fill: #d997bd;
+      }
+
+      .cls-553 {
+        fill: #d997bf;
+      }
+
+      .cls-554 {
+        fill: #d994ba;
+      }
+
+      .cls-555 {
+        fill: #d994be;
+      }
+
+      .cls-556 {
+        fill: #d995bb;
+      }
+
+      .cls-557 {
+        fill: #d994bb;
+      }
+
+      .cls-558 {
+        fill: #d999c0;
+      }
+
+      .cls-559 {
+        fill: #af7691;
+      }
+
+      .cls-560 {
+        fill: #d891b9;
+      }
+
+      .cls-561 {
+        fill: #d891b8;
+      }
+
+      .cls-562 {
+        fill: #d892b9;
+      }
+
+      .cls-563 {
+        fill: #d99fc1;
+      }
+
+      .cls-564 {
+        fill: #d998c0;
+      }
+
+      .cls-565 {
+        fill: #af3a79;
+      }
+
+      .cls-566 {
+        fill: #aea6a4;
+      }
+
+      .cls-567 {
+        fill: #b13f7d;
+      }
+
+      .cls-568 {
+        fill: #db9dc2;
+      }
+
+      .cls-569 {
+        fill: #c06a9a;
+      }
+
+      .cls-570 {
+        fill: #b33f7e;
+      }
+
+      .cls-571 {
+        fill: #b2aeae;
+      }
+
+      .cls-572 {
+        fill: #bcc6cc;
+      }
+
+      .cls-573 {
+        fill: #c0689a;
+      }
+
+      .cls-574 {
+        fill: #ce71a5;
+      }
+
+      .cls-575 {
+        fill: #ce71a6;
+      }
+
+      .cls-576 {
+        fill: #ce6fa5;
+      }
+
+      .cls-577 {
+        fill: #ce6fa4;
+      }
+
+      .cls-578 {
+        fill: #ad3476;
+      }
+
+      .cls-579 {
+        fill: #a76787;
+      }
+
+      .cls-580 {
+        fill: #d398bb;
+      }
+
+      .cls-581 {
+        fill: #cf90b5;
+      }
+
+      .cls-582 {
+        fill: #cf87b0;
+      }
+
+      .cls-583 {
+        fill: #cf7cac;
+      }
+
+      .cls-584 {
+        fill: #cf91b5;
+      }
+
+      .cls-585 {
+        fill: #cf8fb4;
+      }
+
+      .cls-586 {
+        fill: #cf89b2;
+      }
+
+      .cls-587 {
+        fill: #cf74a7;
+      }
+
+      .cls-588 {
+        fill: #cf73a7;
+      }
+
+      .cls-589 {
+        fill: #cf73a6;
+      }
+
+      .cls-590 {
+        fill: #cf75a7;
+      }
+
+      .cls-591 {
+        fill: #cf75a8;
+      }
+
+      .cls-592 {
+        fill: #cf82b0;
+      }
+
+      .cls-593 {
+        fill: #cf84af;
+      }
+
+      .cls-594 {
+        fill: #cf84b0;
+      }
+
+      .cls-595 {
+        fill: #cf76a8;
+      }
+
+      .cls-596 {
+        fill: #cf80ae;
+      }
+
+      .cls-597 {
+        fill: #cf7ead;
+      }
+
+      .cls-598 {
+        fill: #ce85b0;
+      }
+
+      .cls-599 {
+        fill: #ce7dad;
+      }
+
+      .cls-600 {
+        fill: #ce77a9;
+      }
+
+      .cls-601 {
+        fill: #ce79ab;
+      }
+
+      .cls-602 {
+        fill: #942b6a;
+      }
+
+      .cls-603 {
+        fill: #b95088;
+      }
+
+      .cls-604 {
+        fill: #b9578d;
+      }
+
+      .cls-605 {
+        fill: #c33b8d;
+      }
+
+      .cls-606 {
+        fill: #bc6195;
+      }
+
+      .cls-607 {
+        fill: #bc6095;
+      }
+
+      .cls-608 {
+        fill: #bc5c91;
+      }
+
+      .cls-609 {
+        fill: #8c2460;
+      }
+
+      .cls-610 {
+        fill: #8c1f62;
+      }
+
+      .cls-611 {
+        fill: #b67690;
+      }
+
+      .cls-612 {
+        fill: #b67791;
+      }
+
+      .cls-613 {
+        fill: #b84c86;
+      }
+
+      .cls-614 {
+        fill: #ba6093;
+      }
+
+      .cls-615 {
+        fill: #b95e91;
+      }
+
+      .cls-616 {
+        fill: #b75088;
+      }
+
+      .cls-617 {
+        fill: #9d9b9b;
+      }
+
+      .cls-618 {
+        fill: #9f4376;
+      }
+
+      .cls-619 {
+        fill: #9f5179;
+      }
+
+      .cls-620 {
+        fill: #8d2162;
+      }
+
+      .cls-621 {
+        fill: #8d2262;
+      }
+
+      .cls-622 {
+        fill: #8d2361;
+      }
+
+      .cls-623 {
+        fill: #8e2062;
+      }
+
+      .cls-624 {
+        fill: #8e2162;
+      }
+
+      .cls-625 {
+        fill: #8e2363;
+      }
+
+      .cls-626 {
+        fill: #8e2263;
+      }
+
+      .cls-627 {
+        fill: #8e2262;
+      }
+
+      .cls-628 {
+        fill: #8e2563;
+      }
+
+      .cls-629 {
+        fill: #8e2463;
+      }
+
+      .cls-630 {
+        fill: #c36a9d;
+      }
+
+      .cls-631 {
+        fill: #8d2762;
+      }
+
+      .cls-632 {
+        fill: #9d4577;
+      }
+
+      .cls-633 {
+        fill: #c3719f;
+      }
+
+      .cls-634 {
+        fill: #912566;
+      }
+
+      .cls-635 {
+        fill: #8f8b8a;
+      }
+
+      .cls-636 {
+        fill: #912466;
+      }
+
+      .cls-637 {
+        fill: #912766;
+      }
+
+      .cls-638 {
+        fill: #922466;
+      }
+
+      .cls-639 {
+        fill: #b64f88;
+      }
+
+      .cls-640 {
+        fill: #b85c8f;
+      }
+
+      .cls-641 {
+        fill: #b6528a;
+      }
+
+      .cls-642 {
+        fill: #322e2d;
+      }
+
+      .cls-643 {
+        fill: #666262;
+      }
+
+      .cls-644 {
+        fill: #666566;
+      }
+
+      .cls-645 {
+        fill: #302d2d;
+      }
+
+      .cls-646 {
+        fill: #302e2e;
+      }
+
+      .cls-647 {
+        fill: #bc4d87;
+      }
+
+      .cls-648 {
+        fill: #322f2f;
+      }
+
+      .cls-649 {
+        fill: #322f2e;
+      }
+
+      .cls-650 {
+        fill: #32302f;
+      }
+
+      .cls-651 {
+        fill: #323030;
+      }
+
+      .cls-652 {
+        fill: #33302f;
+      }
+
+      .cls-653 {
+        fill: #333131;
+      }
+
+      .cls-654 {
+        fill: #8f2464;
+      }
+
+      .cls-655 {
+        fill: #333232;
+      }
+
+      .cls-656 {
+        fill: #8f2663;
+      }
+
+      .cls-657 {
+        fill: #8f2664;
+      }
+
+      .cls-658 {
+        fill: #8f2564;
+      }
+
+      .cls-659 {
+        fill: #8f2363;
+      }
+
+      .cls-660 {
+        fill: #902265;
+      }
+
+      .cls-661 {
+        fill: #902e67;
+      }
+
+      .cls-662 {
+        fill: #902464;
+      }
+
+      .cls-663 {
+        fill: #bb5089;
+      }
+
+      .cls-664 {
+        fill: #9a2e6f;
+      }
+
+      .cls-665 {
+        fill: #984271;
+      }
+
+      .cls-666 {
+        fill: #984270;
+      }
+
+      .cls-667 {
+        fill: #984170;
+      }
+
+      .cls-668 {
+        fill: #9a4774;
+      }
+
+      .cls-669 {
+        fill: #6c6868;
+      }
+
+      .cls-670 {
+        fill: #99326f;
+      }
+
+      .cls-671 {
+        fill: #932f6a;
+      }
+
+      .cls-672 {
+        fill: #9d4c76;
+      }
+
+      .cls-673 {
+        fill: #861e5a;
+      }
+
+      .cls-674 {
+        fill: #861e5b;
+      }
+
+      .cls-675 {
+        fill: #87215b;
+      }
+
+      .cls-676 {
+        fill: #871f5c;
+      }
+
+      .cls-677 {
+        fill: #86225a;
+      }
+
+      .cls-678 {
+        fill: #86255c;
+      }
+
+      .cls-679 {
+        fill: #fcf8fb;
+      }
+
+      .cls-680 {
+        fill: #801b51;
+      }
+
+      .cls-681 {
+        fill: #747171;
+      }
+
+      .cls-682 {
+        fill: #686767;
+      }
+
+      .cls-683 {
+        fill: #686565;
+      }
+
+      .cls-684 {
+        fill: #9a316f;
+      }
+
+      .cls-685 {
+        fill: #994572;
+      }
+
+      .cls-686 {
+        fill: #656465;
+      }
+
+      .cls-687 {
+        fill: #edd3e3;
+      }
+
+      .cls-688 {
+        fill: #edd2e2;
+      }
+
+      .cls-689 {
+        fill: #edd3e4;
+      }
+
+      .cls-690 {
+        fill: #efd8e6;
+      }
+
+      .cls-691 {
+        fill: #f1deeb;
+      }
+
+      .cls-692 {
+        fill: #f1e7ed;
+      }
+
+      .cls-693 {
+        fill: #f1ddea;
+      }
+
+      .cls-694 {
+        fill: #f0e5eb;
+      }
+
+      .cls-695 {
+        fill: #f1dfe9;
+      }
+
+      .cls-696 {
+        fill: #eed6e5;
+      }
+
+      .cls-697 {
+        fill: #eed7e5;
+      }
+
+      .cls-698 {
+        fill: #eed7e6;
+      }
+
+      .cls-699 {
+        fill: #edebeb;
+      }
+
+      .cls-700 {
+        fill: #eadae4;
+      }
+
+      .cls-701 {
+        fill: #eaccdf;
+      }
+
+      .cls-702 {
+        fill: #eaccde;
+      }
+
+      .cls-703 {
+        fill: #eaccdd;
+      }
+
+      .cls-704 {
+        fill: #eacee0;
+      }
+
+      .cls-705 {
+        fill: #eacbdf;
+      }
+
+      .cls-706 {
+        fill: #eacddf;
+      }
+
+      .cls-707 {
+        fill: #eacde0;
+      }
+
+      .cls-708 {
+        fill: #f4e8ee;
+      }
+
+      .cls-709 {
+        fill: #e4bcd4;
+      }
+
+      .cls-710 {
+        fill: #e4bdd4;
+      }
+
+      .cls-711 {
+        fill: #e7bfd6;
+      }
+
+      .cls-712 {
+        fill: #e7c3d9;
+      }
+
+      .cls-713 {
+        fill: #e7c3db;
+      }
+
+      .cls-714 {
+        fill: #e7c1d7;
+      }
+
+      .cls-715 {
+        fill: #e9cbdd;
+      }
+
+      .cls-716 {
+        fill: #e9cbde;
+      }
+
+      .cls-717 {
+        fill: #e7c6dd;
+      }
+
+      .cls-718 {
+        fill: #e7c4da;
+      }
+
+      .cls-719 {
+        fill: #e7c4d9;
+      }
+
+      .cls-720 {
+        fill: #e7c5da;
+      }
+
+      .cls-721 {
+        fill: #e7c2d7;
+      }
+
+      .cls-722 {
+        fill: #e7c5d9;
+      }
+
+      .cls-723 {
+        fill: #edd7e6;
+      }
+
+      .cls-724 {
+        fill: #eedae8;
+      }
+
+      .cls-725 {
+        fill: #e4c6d9;
+      }
+
+      .cls-726 {
+        fill: #e9c9df;
+      }
+
+      .cls-727 {
+        fill: #e9cadd;
+      }
+
+      .cls-728 {
+        fill: #e9c9dc;
+      }
+
+      .cls-729 {
+        fill: #e9c6db;
+      }
+
+      .cls-730 {
+        fill: #ebc9de;
+      }
+
+      .cls-731 {
+        fill: #e9c8dc;
+      }
+
+      .cls-732 {
+        fill: #e9c8db;
+      }
+
+      .cls-733 {
+        fill: #e4bfd5;
+      }
+
+      .cls-734 {
+        fill: #e4bad5;
+      }
+
+      .cls-735 {
+        fill: #e4bad4;
+      }
+
+      .cls-736 {
+        fill: #e4b4d1;
+      }
+
+      .cls-737 {
+        fill: #e4bad3;
+      }
+
+      .cls-738 {
+        fill: #e4b6d0;
+      }
+
+      .cls-739 {
+        fill: #e4b8d1;
+      }
+
+      .cls-740 {
+        fill: #e4b7d0;
+      }
+
+      .cls-741 {
+        fill: #eed5e4;
+      }
+
+      .cls-742 {
+        fill: #eed4e4;
+      }
+
+      .cls-743 {
+        fill: #e3bbd3;
+      }
+
+      .cls-744 {
+        fill: #e3bad3;
+      }
+
+      .cls-745 {
+        fill: #e5b9d4;
+      }
+
+      .cls-746 {
+        fill: #e5bed7;
+      }
+
+      .cls-747 {
+        fill: #e5bed5;
+      }
+
+      .cls-748 {
+        fill: #e5bfd6;
+      }
+
+      .cls-749 {
+        fill: #e5bdd5;
+      }
+
+      .cls-750 {
+        fill: #f0dce9;
+      }
+
+      .cls-751 {
+        fill: #eee3ea;
+      }
+
+      .cls-752 {
+        fill: #efe5ec;
+      }
+
+      .cls-753 {
+        fill: #ebcedf;
+      }
+
+      .cls-754 {
+        fill: #ebd0e1;
+      }
+
+      .cls-755 {
+        fill: #ebdde5;
+      }
+
+      .cls-756 {
+        fill: #ebcee2;
+      }
+
+      .cls-757 {
+        fill: #e6c2d8;
+      }
+
+      .cls-758 {
+        fill: #e3b5cf;
+      }
+
+      .cls-759 {
+        fill: #e3b7d3;
+      }
+
+      .cls-760 {
+        fill: #e3b8d3;
+      }
+
+      .cls-761 {
+        fill: #e3b2d0;
+      }
+
+      .cls-762 {
+        fill: #e6c1d7;
+      }
+
+      .cls-763 {
+        fill: #e6c8db;
+      }
+
+      .cls-764 {
+        fill: #fcfafc;
+      }
+
+      .cls-765 {
+        fill: #edd5e4;
+      }
+
+      .cls-766 {
+        fill: #edd4e4;
+      }
+
+      .cls-767 {
+        fill: #faf3f5;
+      }
+
+      .cls-768 {
+        fill: #e6bed5;
+      }
+
+      .cls-769 {
+        fill: #e5c0d6;
+      }
+
+      .cls-770 {
+        fill: #e5c0d5;
+      }
+
+      .cls-771 {
+        fill: #e5c0d7;
+      }
+
+      .cls-772 {
+        fill: #e6bfd7;
+      }
+
+      .cls-773 {
+        fill: #e5bbd3;
+      }
+
+      .cls-774 {
+        fill: #eee2e9;
+      }
+
+      .cls-775 {
+        fill: #ecdce6;
+      }
+
+      .cls-776 {
+        fill: #efd9e7;
+      }
+
+      .cls-777 {
+        fill: #efd9e8;
+      }
+
+      .cls-778 {
+        fill: #f0e6ed;
+      }
+
+      .cls-779 {
+        fill: #f0ddea;
+      }
+
+      .cls-780 {
+        fill: #f0e3eb;
+      }
+
+      .cls-781 {
+        fill: #e8c9dc;
+      }
+
+      .cls-782 {
+        fill: #e8c6dd;
+      }
+
+      .cls-783 {
+        fill: #e8c6db;
+      }
+
+      .cls-784 {
+        fill: #e8c7db;
+      }
+
+      .cls-785 {
+        fill: #e8c4da;
+      }
+
+      .cls-786 {
+        fill: #e8c5dc;
+      }
+
+      .cls-787 {
+        fill: #e8c8dc;
+      }
+
+      .cls-788 {
+        fill: #eacadf;
+      }
+
+      .cls-789 {
+        fill: #f4eff3;
+      }
+
+      .cls-790 {
+        fill: #f5e8f0;
+      }
+
+      .cls-791 {
+        fill: #f4ecf1;
+      }
+
+      .cls-792 {
+        fill: #f4e6ef;
+      }
+
+      .cls-793 {
+        fill: #686464;
+      }
+
+      .cls-794 {
+        fill: #676464;
+      }
+
+      .cls-795 {
+        fill: #676363;
+      }
+
+      .cls-796 {
+        fill: #696665;
+      }
+    #heart {
+      cursor: pointer;
+    }
+    .btn {
+      cursor: pointer;
+    }
